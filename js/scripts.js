@@ -57,7 +57,7 @@
 $(window).scroll(function() {
     var wScroll = $(this).scrollTop();
 
-    if (wScroll > 1100 && wScroll < 1590) {
+    if (wScroll > 1100 && wScroll < 1737) {
         $('#myVideo1').trigger('play')
         console.log(wScroll); 
         
