@@ -10349,14 +10349,20 @@ body {
   padding-bottom: 10px;
   margin: auto;
   width:auto;
+  height: auto;
   background: linear-gradient(to top, #000000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+
+#myVideo1 {
+  height: 1000px;
+}
+
 }
 .left-vid {
   display: block;
   margin-left: none;
   margin-right: auto;
   height: auto;
-  width: 80%;
+  width: auto;
   padding: none;
 }
 
@@ -10372,3 +10378,4 @@ body {
 #threeD {
   margin-top: 200px;
 }
+

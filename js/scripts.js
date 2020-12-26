@@ -57,12 +57,13 @@
 $(window).scroll(function() {
     var wScroll = $(this).scrollTop();
 
-    if (wScroll > 1150 && wScroll < 1800) {
+    if (wScroll > 1100 && wScroll < 1590) {
         $('#myVideo1').trigger('play')
         console.log(wScroll); 
         
     } else {
         $('#myVideo1').trigger('pause')
+        console.log ("ini wScroll : " +wScroll)
     
     }
 });
