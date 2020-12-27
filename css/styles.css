@@ -10366,15 +10366,6 @@ body {
   padding: none;
 }
 
-@media  (min-width: 992px) {
-  scroll();
-}
-
-
-.instagram {
-  margin-top: 150px;
-}
-
 #threeD {
   margin-top: 200px;
 }
